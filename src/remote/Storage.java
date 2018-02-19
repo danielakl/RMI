@@ -4,7 +4,7 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 /**
- *
+ * Interface for managing stored equipment.
  */
 public interface Storage extends Remote {
     /**

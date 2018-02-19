@@ -3,7 +3,7 @@ package dataTransfer;
 import java.io.Serializable;
 
 /**
- *
+ * Equipment
  */
 public final class Equipment implements Serializable, Comparable {
     /**
