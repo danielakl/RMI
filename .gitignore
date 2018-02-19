@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
@@ -22,6 +23,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
 ### macOS template
 # General
 .DS_Store
@@ -49,6 +51,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
 ### Linux template
 *~
 
@@ -63,6 +66,7 @@ Temporary Items
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
 ### Java template
 # Compiled class file
 *.class
@@ -86,6 +90,7 @@ Temporary Items
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
