@@ -8,15 +8,12 @@ import java.rmi.registry.Registry;
 
 public final class Server {
     public static void main(String[] args) {
-//        if (System.getSecurityManager() == null) {
-//            System.setSecurityManager(new SecurityManager());
-//        }
-
         try {
             Storage storage = new StorageImpl();
 
             Registry registry = LocateRegistry.getRegistry();
             registry.rebind("Storage", storage);
+
             javax.swing.JOptionPane.showMessageDialog(null, "Trykk OK for å stoppe tjeneren.");
             registry.unbind("Storage");
         } catch (NotBoundException | RemoteException e) {
